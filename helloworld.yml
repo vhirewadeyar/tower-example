@@ -7,3 +7,9 @@
  
   - name: Hello World!
     shell: echo "Hi!  AWX is working"
+    
+  - name: Create a File
+    file:
+      path: /tmp/ansibletower
+      state: touch
+      mode: u=rwx,g=rx,o=rwx
