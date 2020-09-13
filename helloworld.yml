@@ -1,7 +1,7 @@
 ---
 - name: Hello World!
   hosts: all
-  user: ansadm
+  become: yes
   tasks:
  
   - name: Hello World!
