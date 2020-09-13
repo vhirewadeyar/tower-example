@@ -1,8 +1,6 @@
 ---
 - name: Hello World!
   hosts: all
-  user: ansadm
- 
   tasks:
  
   - name: Hello World!
